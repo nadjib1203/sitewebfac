@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@400;495&family=Lobster&family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@495&family=Montserrat:wght@400;500&display=swap');
+
+html {
+	background: beige;
+}
+body {
+	margin: 0;									
+	padding: 0;
+	font-family: "Montserrat" , sans-serif;		
+
+}
+
+nav{
+	display:flex;								
+	flex-wrap:wrap;								
+	justify-content: center;					
+	align-items: center;			
+	border-bottom: 6px solid black;		
+	
+	
+
+
+}
+
+nav h1 {										
+		color :green;						
+		font-family: "Lobster", sans-serif;		
+		font-size: 25px;
+		margin-right: 900px;
+
+}
+nav .onglets a {
+				text-decoration: none;
+				color: black;
+				margin-right: 10px;
+				border-bottom: 1px solid black;
+
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("image/chauss2.jpg");
+	
+	
+}
+
+header h1 {
+		font-family: "Lobster", sans-serif;		
+		font-size: 50px; 
+		margin-left: 820px;
+
+
+}
+	
+	header h4 {
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: center;
+		border-bottom: 1px solid black;
+		color: red;
+	}
+	
+
+	.premier{
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.premier .content .card {    
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+.premier .content .card .left {
+
+	flex: 0 0 30%
+	padding:20px;
+	background: black;
+	color: white;
+}
+
+}
+.premier .content .card.right {
+
+	flex: 0 0 70%
+}

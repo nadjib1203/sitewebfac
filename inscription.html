@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" type="text/css" href="inscription.css">
+<title>Nouvelle inscription</title>
+
+<style >
+  label {
+   
+    text-align: left;
+    display: inline-block;
+    color: blue;
+
+  }
+
+  fieldset {
+    border-radius: 8px;
+  }
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: red;
+}
+
+input [type="text"],input [type="number"] , input [type="email"] {
+  border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+  margin: 10px;
+
+}
+
+input [type="submit "] {
+  position: relative;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+</div>
+<nav>       <!-- création de la barre navigation (limite)-->
+    <h1>Le Football</h1>   <!-- titre-->
+    <div class="onglets"> <!--creation d'onglets qui permet de mettre des rubriques-->
+      <a href="Index.html">Home</a>
+      <a href="boutique.html">Boutique</a>
+      <a href="stage.html">Stage</a>
+      <!--<a href="connexion.html">Connexion</a> -->
+      <a href="#Contacter nous">Contact</a>
+</nav>
+</div>  
+  <nav>
+  <header>
+
+      <h1>STAGE</h1>
+      <h4> L'apprentissage du football est notre passion ! </h4>
+      <h3>Pour nous rejoindre, inscrivez-vous</h3>
+
+      <!-- <BUTTON>DECOUVRIR</BUTTON> -->
+
+  </header>
+
+<form action="insert.php" method="GET">                            <!-- attributs action le nom qui va envoyer les donnée a notre table de donner , la method permet l'envoi des donnee get/post-->
+  <fieldset>    <!--permet d'encadrer-->
+    <legend>Inscription</legend>
+  <label >Nom</label> <input type="text" name="nom"   placeholder="Votre nom ici"/> <br>
+  <label>Prénom</label> <input type="text" name="prénom"   placeholder="Votre prénom ici"/> <br>
+  <label>Tel</label> <input type="number" name="phone"   placeholder="Votre numéro ici"/> <br>
+  <label>Email</label> <input type="email" name="mail"   placeholder="Votre mail ici"/> <br>
+  <label>Sexe</label> <input type="radio" name="gender" value="Homme" />Homme <input type="radio" name="gender" value="Femme" />Femme <br>
+  <input type="submit" name="Valider"/>
+</fieldset>
+
+</form>
+
+
+</body>
+
+
+
+</html>
